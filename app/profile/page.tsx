@@ -15,7 +15,6 @@ const ProfilePage = () => {
             Passionate developer specializing in scalable web applications and modern design.
           </p>
         </div>
-        git branch
 
         <div className="text-center mb-8">
           <h2 className="text-yellow-400 font-semibold">Contact</h2>
@@ -41,6 +40,7 @@ const ProfilePage = () => {
             Hello, my name is Wit, I'm a 2nd year software engineering student.
           </p>
         </div>
+        git add .
 
         <div className="text-center">
           <h2 className="text-blue-300 text-2xl font-bold">Projects</h2>
