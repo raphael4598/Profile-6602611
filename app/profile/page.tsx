@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from 'next/image'; // นำเข้า Image จาก next/image
 
 const ProfilePage = () => {
   return (
@@ -10,8 +10,8 @@ const ProfilePage = () => {
             src="/profile.jpg"
             alt="Phonsinee Kitchaaum"
             className="w-32 h-32 rounded-full mx-auto"
-            width={128}
-            height={128} 
+            width={128} // กำหนดขนาด width
+            height={128} // กำหนดขนาด height
           />
           <h1 className="text-yellow-400 text-3xl font-bold mt-4">Chinnapat Hadtakong</h1>
           <p className="text-gray-300 mt-2">
@@ -31,7 +31,7 @@ const ProfilePage = () => {
           <h2 className="text-yellow-400 font-semibold">Skills</h2>
           <ul className="list-none text-gray-300 mt-2 space-y-1">
             <li>HTML</li>
-            <li>Java</li>
+            <li>Java</li> {/* แก้ไขเป็น Java แทน java เพื่อความถูกต้อง */}
             <li>Next.js</li>
             <li>UI/UX</li>
           </ul>
@@ -40,7 +40,7 @@ const ProfilePage = () => {
         <div className="text-center mb-8">
           <h2 className="text-blue-300 text-2xl font-bold">About me</h2>
           <p className="text-gray-300 mt-2">
-            Hello, my name is Wit, I'm a 2nd year software engineering student.
+            Hello, my name is Wit, I&apos;m a 2nd year software engineering student.
           </p>
         </div>
 
