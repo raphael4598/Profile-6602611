@@ -28,9 +28,9 @@ const ProfilePage = () => {
           <h2 className="text-yellow-400 font-semibold">Skills</h2>
           <ul className="list-none text-gray-300 mt-2 space-y-1">
             <li>HTML</li>
-            <li>TailwindCSS</li>
+            <li>java</li>
             <li>Next.js</li>
-            <li>UI/UX Designer</li>
+            <li>UI/UX</li>
           </ul>
         </div>
 
@@ -40,7 +40,6 @@ const ProfilePage = () => {
             Hello, my name is Wit, I'm a 2nd year software engineering student.
           </p>
         </div>
-        git add .
 
         <div className="text-center">
           <h2 className="text-blue-300 text-2xl font-bold">Projects</h2>
