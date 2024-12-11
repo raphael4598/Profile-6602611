@@ -1,14 +1,17 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ProfilePage = () => {
   return (
     <div className="min-h-screen bg-gray-800 text-gray-200">
       <div className="container mx-auto py-10 px-4">
         <div className="text-center mb-8">
-          <img
+          <Image
             src="/profile.jpg"
             alt="Phonsinee Kitchaaum"
             className="w-32 h-32 rounded-full mx-auto"
+            width={128}
+            height={128} 
           />
           <h1 className="text-yellow-400 text-3xl font-bold mt-4">Chinnapat Hadtakong</h1>
           <p className="text-gray-300 mt-2">
@@ -18,7 +21,7 @@ const ProfilePage = () => {
 
         <div className="text-center mb-8">
           <h2 className="text-yellow-400 font-semibold">Contact</h2>
-          <p>Email: <a href="mailto:66022804@up.ac.th" className="text-blue-300">66026011@up.ac.th</a></p>
+          <p>Email: <a href="mailto:66026011@up.ac.th" className="text-blue-300">66026011@up.ac.th</a></p>
           <p>Facebook: <a href="#" className="text-blue-300">Chinnapat Hadtakong</a></p>
           <p>Instagram: <a href="#" className="text-blue-300">chinnapat_ip</a></p>
           <p>Github: <a href="#" className="text-blue-300">raphael4598</a></p>
@@ -28,7 +31,7 @@ const ProfilePage = () => {
           <h2 className="text-yellow-400 font-semibold">Skills</h2>
           <ul className="list-none text-gray-300 mt-2 space-y-1">
             <li>HTML</li>
-            <li>java</li>
+            <li>Java</li>
             <li>Next.js</li>
             <li>UI/UX</li>
           </ul>
@@ -64,4 +67,3 @@ const ProfilePage = () => {
 };
 
 export default ProfilePage;
-  
